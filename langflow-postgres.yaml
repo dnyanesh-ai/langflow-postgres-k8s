@@ -98,9 +98,9 @@ spec:
           env:
             - name: SQLALCHEMY_DATABASE_URI
               value: "postgresql://admin:admin123@postgres:5432/langflow_db"
-          command: [ "langflow", "run", "--host", "0.0.0.0", "--port", "7860" ]
             - name: LLM_MODEL
               value: "llma3"
+          command: [ "langflow", "run", "--host", "0.0.0.0", "--port", "7860" ]
 
 ---
 
